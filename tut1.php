@@ -7,6 +7,7 @@
 	* Parse Command
 	* Forward Command to appropriate third party web service
 	* Return results via Slack Incoming Webhook
+	*
 	*/
 
 ?>
