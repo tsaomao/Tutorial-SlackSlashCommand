@@ -47,7 +47,9 @@ $response_array = json_decode($ch_response, TRUE);
 
 if($ch_response == FALSE) {
 	# isitup.org Down?
-	$reply = "Weird. isitup.org could not be reached.";
+	$reply = "Weird. isitup.org could not be reached.\n";
+	$reply .= "Response value: ".$ch_response.".\n";
+	$reply .= "Response array: ".$response_array.".";
 } else {
 	# Yay. Code 1 means up.
 	if ($response_array['status_code'] == 1) {
