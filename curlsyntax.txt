@@ -1,0 +1,1 @@
+curl -A "IsitupMKGForSlack/1.0 (https://github.com/tsaomao/Tutorial-SlackSlashCommand/blob/master/isitup.php; malcolm.gin@gmail.com)" https://isitup.org/www.amazon.com.json
