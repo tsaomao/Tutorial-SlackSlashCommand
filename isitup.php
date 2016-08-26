@@ -39,7 +39,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $ch_response = curl_exec($ch);
 
 # Close cURL:
-curl_close($ch)
+curl_close($ch);
 
 # Parse response into a json array
 $response_array = json_decode($ch_response, TRUE);
