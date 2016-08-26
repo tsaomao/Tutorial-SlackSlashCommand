@@ -34,6 +34,7 @@ $ch = curl_init($url_to_check);
 curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
 # - Tell cURL that we expect return data
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HEADER, 0);
 
 # Call cURL:
 $ch_response = curl_exec($ch);
