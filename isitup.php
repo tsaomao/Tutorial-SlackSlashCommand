@@ -59,7 +59,7 @@ if($ch_response == FALSE) {
 		$reply = ":interrobang: IsItUp.org says your domain is invalid. ";
 		$reply .= "Please enter both the domain and the suffix (e.g. amazon.com or whitehouse.gov).";
 	} else {
-		$reply = "Got a weird response from isitup: ".$response_array['status_code']
+		$reply = "Got a weird response from isitup: ".$response_array['status_code'];
 	}
 }
 echo $reply;
